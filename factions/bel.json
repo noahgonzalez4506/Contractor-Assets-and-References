@@ -12,7 +12,8 @@
   "blocs": [
     "nato",
     "eu",
-    "benelux"
+    "benelux",
+    "global_coalition_against_isis"
   ],
   "campaign_tier": "mid",
   "alignment_to_player": "friendly",
@@ -71,7 +72,10 @@
     "dnk": 85,
     "swe": 85,
     "fin": 85,
-    "grc": 85
+    "grc": 85,
+    "adf": -85,
+    "m23": -45,
+    "cod": 30
   },
   "theatres": [
     "baltic_coast",

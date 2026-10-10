@@ -20,7 +20,9 @@
     "ukr",
     "pol",
     "geo",
-    "irq"
+    "irq",
+    "sahel_aes",
+    "cod"
   ],
   "crew": 2,
   "passengers": 8,

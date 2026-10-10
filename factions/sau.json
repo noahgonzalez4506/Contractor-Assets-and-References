@@ -13,6 +13,10 @@
     "arab_league",
     "mecca_joint_defence_agreement",
     "islamic_military_counter_terrorism_coalition",
+    "major_non_nato_ally_us",
+    "global_coalition_against_isis"
+  ],
+  "traits": [
     "g20"
   ],
   "campaign_tier": "early",
@@ -48,7 +52,19 @@
     "al_qaeda": -90,
     "isis": -95,
     "isis_k": -80,
-    "al_shabaab": -70
+    "al_shabaab": -70,
+    "pmc_black_sable": 40,
+    "bel": 30,
+    "deu": 30,
+    "dnk": 30,
+    "esp": 30,
+    "fin": 30,
+    "grc": 30,
+    "ita": 30,
+    "nld": 30,
+    "nor": 30,
+    "pmc_halcyon": 30,
+    "swe": 30
   },
   "theatres": [
     "yemen_red_sea",
@@ -376,8 +392,35 @@
     "Counter-drone systems at oil facilities"
   ],
   "player_trade": {
-    "sellable": false,
-    "rep_tiers": []
+    "sellable": true,
+    "rep_tiers": [
+      {
+        "rep": 40,
+        "unlocks": [
+          "5.56x45mm and 7.62x51mm ammunition",
+          "40 mm grenades, frags and smoke",
+          "Steyr AUG and HK G36 rifles",
+          "medium helmets and soft vests"
+        ]
+      },
+      {
+        "rep": 60,
+        "unlocks": [
+          "FN Minimi and FN MAG",
+          "HK417 marksman rifle",
+          "plate carriers with ceramic front/back plates",
+          "AT4"
+        ]
+      },
+      {
+        "rep": 80,
+        "unlocks": [
+          "Toyota Land Cruiser and Humvee purchase (unarmed)",
+          "M-ATV purchase",
+          "NVGs and thermal optics"
+        ]
+      }
+    ]
   },
   "contract_types": {
     "as_client": [
@@ -391,10 +434,9 @@
     ],
     "as_target": []
   },
-  "notes": "Early-game client: the Yemen frontier and Red Sea coast give counter-AQAP, anti-smuggling and border-defence contracts, and since 2026 counter-drone work against Houthi, Iraqi-militia and Iranian strikes. Political context 2026: Saudi-Houthi truce since 2022 broken by renewed strikes after the Iran war began (28 February 2026) and the Houthi Bab al-Mandab escalation (September 2026); Saudi Arabia struck Iran after being attacked; Mecca Joint Defence Agreement with Türkiye and Pakistan (7 August 2026), collective-defence deployments agreed 5 October 2026; Strategic Mutual Defence Agreement with Pakistan from September 2025. Relations with the UAE cooled after the December 2025 Yemen crisis over the Southern Transitional Council. No diplomatic relations with Israel. Backs Syria's new government. Real-world operator records only; any game assignment of Abrams/Bradley/M-ATV to this faction is a proposal.",
+  "notes": "Early-game client: the Yemen frontier and Red Sea coast give counter-AQAP, anti-smuggling and border-defence contracts, and since 2026 counter-drone work against Houthi, Iraqi-militia and Iranian strikes. Political context 2026: Saudi-Houthi truce since 2022 broken by renewed strikes after the Iran war began (28 February 2026) and the Houthi Bab al-Mandab escalation (September 2026); Saudi Arabia struck Iran after being attacked; Mecca Joint Defence Agreement with Türkiye and Pakistan (7 August 2026), collective-defence deployments agreed 5 October 2026; Strategic Mutual Defence Agreement with Pakistan from September 2025. Relations with the UAE cooled after the December 2025 Yemen crisis over the Southern Transitional Council. No diplomatic relations with Israel. Backs Syria's new government. It fields the Abrams, Bradley and M-ATV in game as a real operator (Captain-confirmed 2026-10-10: the existing voxel models are fielded by their real operators).",
   "proposed": [
     "campaign_tier",
-    "alignment_to_player (friendly client, not a seller)",
     "player_client",
     "contract_types.as_client",
     "relations.player",
@@ -402,7 +444,8 @@
     "unit_templates",
     "vehicles[].prevalence (game weighting)",
     "body_armor (game tier mapping)",
-    "player_trade.sellable (false until Captain decides)"
+    "alignment_to_player (friendly client and seller)",
+    "player_trade.rep_tiers (40/60/80 thresholds and unlocks; that sau sells at high reputation is Captain-confirmed 2026-10-10)"
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/Royal_Saudi_Land_Forces",

@@ -12,6 +12,12 @@
     "nato",
     "mecca_joint_defence_agreement",
     "organization_of_turkic_states",
+    "eu",
+    "tur_aze",
+    "global_coalition_against_isis",
+    "islamic_military_counter_terrorism_coalition"
+  ],
+  "traits": [
     "g20"
   ],
   "campaign_tier": "mid",
@@ -54,7 +60,25 @@
     "isis": -90,
     "isis_k": -80,
     "al_qaeda": -60,
-    "al_shabaab": -85
+    "al_shabaab": -85,
+    "rou": 65,
+    "esp": 55,
+    "est": 55,
+    "lva": 55,
+    "ltu": 50,
+    "mda": 50,
+    "sahel_aes": 50,
+    "bel": 40,
+    "dnk": 40,
+    "fin": 40,
+    "nld": 40,
+    "nor": 40,
+    "swe": 35,
+    "afg_taliban": 15,
+    "aut": 10,
+    "pmc_black_sable": -20,
+    "ind": -30,
+    "cod": 25
   },
   "theatres": [
     "levant_syria",
@@ -427,7 +451,7 @@
     ],
     "as_target": []
   },
-  "notes": "NATO member and the main outside military patron of Syria's transitional government (August 2025 accord: training, weapons, logistics; Turkish-supplied Cobra, Ejder, Kirpi, Amazon and ex-Turkish M113 vehicles appear in Syrian service). Hostile to the SDF and to the PKK (which announced dissolution in 2025); supports the January 2026 SDF-Damascus integration agreement if it is carried out. Strongly opposed to Israel's wars in Gaza and Lebanon and hosts Hamas political figures, while Turkish-Israeli tensions in Syria are high. Signed the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan on 7 August 2026; on 5 October 2026 the partners agreed to activate collective-defence deployments in Saudi Arabia. Keeps a base and training mission in Somalia (horn_of_africa). Good candidate for a neutral-to-friendly client for counter-ISIS contracts in levant_syria and mesopotamia.",
+  "notes": "NATO member and the main outside military patron of Syria's transitional government (August 2025 accord: training, weapons, logistics; Turkish-supplied Cobra, Ejder, Kirpi, Amazon and ex-Turkish M113 vehicles appear in Syrian service). Hostile to the SDF and to the PKK (which announced dissolution in 2025); supports the January 2026 SDF-Damascus integration agreement if it is carried out. Strongly opposed to Israel's wars in Gaza and Lebanon and hosts Hamas political figures, while Turkish-Israeli tensions in Syria are high. Signed the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan on 7 August 2026; on 5 October 2026 the partners agreed to activate collective-defence deployments in Saudi Arabia. Keeps a base and training mission in Somalia (horn_of_africa). Good candidate for a neutral-to-friendly client for counter-ISIS contracts in levant_syria and mesopotamia. Captain decided (2026-10-10) that Türkiye hires the player but does not sell to them, unlike the other NATO members.",
   "proposed": [
     "campaign_tier",
     "alignment_to_player",
@@ -438,7 +462,6 @@
     "unit_templates",
     "vehicles[].prevalence (game weighting)",
     "body_armor (game tier mapping)",
-    "player_trade.sellable (false until Captain decides)",
     "blocs.mecca_joint_defence_agreement (new alliance id for the alliances agent)"
   ],
   "sources": [

@@ -32,7 +32,7 @@
     "rus": -40,
     "chn": -30,
     "africa_corps": -60,
-    "afg_taliban": -70,
+    "afg_taliban": -10,
     "hezbollah": -100,
     "houthis": -100,
     "hamas": -100,
@@ -48,7 +48,51 @@
     "cartel_jalisco_nueva": -60,
     "pmc_halcyon": -20,
     "pmc_kestrel": -20,
-    "pmc_black_sable": -40
+    "pmc_black_sable": -40,
+    "est": 30,
+    "ltu": 30,
+    "lva": 30,
+    "pol": 30,
+    "ukr": 30,
+    "arm": 25,
+    "bel": 25,
+    "deu": 25,
+    "dnk": 25,
+    "esp": 25,
+    "fin": 25,
+    "fra": 25,
+    "grc": 25,
+    "ita": 25,
+    "kor": 25,
+    "nld": 25,
+    "nor": 25,
+    "phl": 25,
+    "rou": 25,
+    "swe": 25,
+    "twn": 25,
+    "mda": 20,
+    "mex": 20,
+    "aut": 15,
+    "aze": 15,
+    "che": 15,
+    "geo": 15,
+    "irl": 15,
+    "jpn": 15,
+    "egy": 10,
+    "kaz": 10,
+    "pse_pa": 10,
+    "srb": 10,
+    "tur": 10,
+    "pak": 5,
+    "syr": 5,
+    "ind": 0,
+    "vnm": 0,
+    "sahel_aes": -10,
+    "blr": -50,
+    "prk": -80,
+    "adf": -100,
+    "m23": -50,
+    "cod": 20
   },
   "theatres": [
     "levant_syria",
@@ -180,13 +224,13 @@
       "vehicle_id": "matv",
       "role": "mrap",
       "prevalence": "signature",
-      "notes": "PROPOSAL: first purchasable armoured vehicle (US rep), turret with M2/M240."
+      "notes": "First armoured vehicle the player can own. Must be bought from usa first (player_trade, rep 30); turret with M2/M240."
     },
     {
       "vehicle_id": "maxxpro",
       "role": "mrap",
       "prevalence": "common",
-      "notes": "PROPOSAL: squad carrier for convoy escort contracts (US rep)."
+      "notes": "Squad carrier for convoy escort contracts. Must be bought from usa first (player_trade, rep 45)."
     },
     {
       "vehicle_id": "technical_dshk",
@@ -210,7 +254,7 @@
       "vehicle_id": "ah1z",
       "role": "attack_heli",
       "prevalence": "rare",
-      "notes": "PROPOSAL: CAS called from an allied USMC LHD at high US rep, not owned by the player."
+      "notes": "Close air support. Must be bought first: unlocked as a usa CAS purchase at rep 75 and flown from an allied USMC LHD."
     }
   ],
   "unit_templates": [
@@ -294,7 +338,7 @@
       "terrorist_ambush_on_convoy (dynamic events)"
     ]
   },
-  "notes": "Starting kit per design: M4, 2 spare magazines, 1 smoke grenade, 1 frag grenade. Contracts come from the regional contract board and faction fixers; taking work from one side locks the player out of that side's enemies' contracts for a while. Civilian casualties caused by the player or AI cost money and reputation; 8 void a contract. Early game is dominated by counter-terror work in the Middle East and affiliate theatres. Which vehicles the player can own (vs hire) is an open design question; all vehicles here are proposals using existing voxel models.",
+  "notes": "Starting kit per design: M4, 2 spare magazines, 1 smoke grenade, 1 frag grenade. Contracts come from the regional contract board and faction fixers; taking work from one side locks the player out of that side's enemies' contracts for a while. Civilian casualties caused by the player or AI cost money and reputation; 8 void a contract. Early game is dominated by counter-terror work in the Middle East and affiliate theatres. Which vehicles the player can own (vs hire) is an open design question; all vehicles here are proposals using existing voxel models. The AH-1Z, MaxxPro, M-ATV, Bradley and Abrams are fielded by their real operators (Captain-confirmed 2026-10-10); the player faction also lists the M-ATV, MaxxPro and AH-1Z, but every player vehicle and support asset must be bought (player_trade or a support purchase) before it can be used (Captain-confirmed 2026-10-10). M-ATVs come from usa at rep 30, MaxxPros at rep 45, and AH-1Z close air support at rep 75. The player_mounted_squad template uses bought M-ATVs.",
   "proposed": [
     "relations",
     "vehicles",
